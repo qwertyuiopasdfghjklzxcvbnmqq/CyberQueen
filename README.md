@@ -1,10 +1,6 @@
 
 ## Hi there <img src="https://github.com/souvikguria98/souvikguria98/blob/master/Hi.gif" width="25">  I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
 
-[![English](https://img.shields.io/badge/Select-Sinhala-red.svg)](https://github.com/waqqw/CyberQueen/blob/main/README.md)
-
-
-
 
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/J3FK9zw/image.png" width="480" height="350"/>
