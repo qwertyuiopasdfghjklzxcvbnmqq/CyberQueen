@@ -81,7 +81,7 @@
             "value": "private"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මෙම හිස්තැනේ දමන්න.",
+            "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මම මේ හිස්තැනේ දමා ඇත.",
             "required": false,
             "value": "6Qh51UducRWW4zujLUK33hM1"
         },
