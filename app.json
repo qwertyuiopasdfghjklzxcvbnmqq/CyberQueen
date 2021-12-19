@@ -129,7 +129,7 @@
             "description": "මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
             "required": false,
             "value": "true"
-        },
+        }
     },
     "addons": [{
       "plan": "heroku-postgresql"
