@@ -9,7 +9,7 @@
     "stack": "container",
     "env": {
         "CYBER_SESSION": {
-            "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන්",
+            "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන් https://replit.com/@NICONico6/CyberQueen-QR Link",
             "required": true
         },
         "SUDO": {
