@@ -22,16 +22,6 @@
             "required": true,
             "value": "en"
         },
-        "ANTI_LINK": {
-            "description": "Link Blocking System.ගෲපයට කෙනෙකු ලින්ක් එකක් ඇතුලත් කලහොත් ඔහුව ගෲපයෙන් නෙරපා දමයි",
-            "required": true,
-            "value": "true"
-        },
-        "INBO_BLOCK": {
-            "description": "Inbox Blocking System. ඉන්බොක්ස් මැසේජ් දමන්නන් බ්ලොක් කරයි",
-            "required": true,
-            "value": "false"
-        },
         "CUS_PANEL": {
             "description": "Enter 2nd Panel CMD",
             "required": true,
@@ -41,16 +31,6 @@
             "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
             "required": true,
             "value": "^[.!#]"
-        },
-        "BAD_KICK": {
-            "description": "It's true, kick the member who using bad word.අසභ්‍ය වචන පාවිච්චි කරන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "false"
-        },
-        "SPAM_KICK": {
-            "description": "It's true, kick the member who using spam.ස්පෑම් දමන පුද්ගලයන් ගෲපයෙන් ඉවත් කරයි ",
-            "required": true,
-            "value": "false"
         },
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
@@ -99,11 +79,6 @@
             "description": "Bot වැඩ කරන ක්රමය. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම bot භාවිතා කළ හැකිය. ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ bot භාවිතා කළ හැක්කේ ඔබට පමණි.",
             "required": true,
             "value": "private"
-        },       
-        "DEBUG": {
-            "description": "ඔබ මෙය නොදන්නේ නම්. එය අත්හරින්න.",
-            "required": true,
-            "value": "false"
         },
         "REMOVE_BG_API_KEY": {
             "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මෙම හිස්තැනේ දමන්න.",
@@ -155,11 +130,6 @@
             "required": false,
             "value": "true"
         },
-        "COFFEEHOUSE_API_KEY": {
-            "description": "එය අත්හරින්න. අපි ඔබට මෙය ලබා දෙනවා.",
-            "required": false,
-            "value": "true"
-        }
     },
     "addons": [{
       "plan": "heroku-postgresql"
