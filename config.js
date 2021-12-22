@@ -18,7 +18,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v1.0 Beta Edition',
+    VERSION: 'v3.0.4 Beta Edition',
     SESSION: process.env.CYBER_SESSION === undefined ? '' : process.env.CYBER_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
