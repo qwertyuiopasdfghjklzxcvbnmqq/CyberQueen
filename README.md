@@ -53,10 +53,10 @@ SL Technical Tips YouTube Channel owner
 <div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
 
 ## 📢 Guide
-Click WA logo to Join Support Group 👇
+Click WA logo to Join Public Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GqFSnrBWDFj8yCDuCMt2YT)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/ELCDwI2kYJw0WrxhSZbeAV)
   <div align="center">
        
 
