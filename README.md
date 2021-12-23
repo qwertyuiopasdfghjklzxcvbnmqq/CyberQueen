@@ -60,16 +60,6 @@ Click WA logo to Join Support Group 👇
   <div align="center">
        
 
-    
-### ⚠️ Warning! 
-```
-Due to Userbot; Your WhatsApp account may be banned.
-This is an open source project, you are responsible for everything you do. 
-Absolutely, CyberQueen executives do not accept responsibility.
-By establishing the CyberQueen, you are deemed to have accepted these responsibilities.
-```
-
-
 
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
@@ -105,4 +95,11 @@ CyberQueen bot ගොඩනැගීමට ඔබට ජංගම දුරක�
 මෙය විවෘත මූලාශ්‍ර ව්‍යාපෘතියකි, ඔබ කරන සෑම දෙයකටම ඔබ වගකිව යුතුය. 
 නියත වශයෙන්ම
 
+### ⚠️ Warning! 
+```
+Due to Userbot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, CyberQueen executives do not accept responsibility.
+By establishing the CyberQueen, you are deemed to have accepted these responsibilities.
+```
 
