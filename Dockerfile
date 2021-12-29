@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/waqqw/CyberQueen /root/CyberQueen
+RUN git clone https://github.com/waqqw/heroku-api /root/CyberQueen
 WORKDIR /root/CyberQueen/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
