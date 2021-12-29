@@ -8,4 +8,4 @@ RUN yarn install --no-audit
 
 CMD ["node", "cyberqueen.js"]
 
-//CyberQueen WhatsApp BOT
+// CyberQueen WhatsApp BOT
