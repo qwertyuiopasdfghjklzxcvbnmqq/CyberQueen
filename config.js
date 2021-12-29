@@ -17,7 +17,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'v3.0.4 Beta Edition',
-    SESSION: process.env.CYBER_SESSION === undefined ? '' : process.env.CYBER_SESSION,
+    SESSION: process.env._CYBER_SESSION === undefined ? '' : process.env._CYBER_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     Bad_Word: process.env.BAD_KICK === undefined ? 'true' : process.env.BAD_KICK,
