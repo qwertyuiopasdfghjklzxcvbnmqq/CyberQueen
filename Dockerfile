@@ -7,5 +7,3 @@ RUN npm install supervisor -g
 RUN yarn install --no-audit
 
 CMD ["node", "cyberqueen.js"]
-
-// CyberQueen WhatsApp BOT
