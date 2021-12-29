@@ -8,7 +8,7 @@
     "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
     "stack": "container",
     "env": {
-        "CYBER_SESSION": {
+        "_CYBER_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන් https://replit.com/@NICONico6/CyberQueen-QR",
             "required": true
         },
