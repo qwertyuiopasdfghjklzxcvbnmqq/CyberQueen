@@ -19,7 +19,7 @@
 <p align="center">
     Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
     <br>
-        <a href="https://chat.whatsapp.com/GqFSnrBWDFj8yCDuCMt2YT">Whatsapp Group</a> |
+        <a href="https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd">Whatsapp Group</a> |
         <a href="https://www.youtube.com/SLTechnicalTips">Youtube Channel</a>
     <br>
 </p>
@@ -56,7 +56,7 @@ SL Technical Tips YouTube Channel owner
 Click WA logo to Join Public Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/ELCDwI2kYJw0WrxhSZbeAV)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd)
   <div align="center">
        
 
