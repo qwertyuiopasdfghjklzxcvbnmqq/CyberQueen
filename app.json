@@ -16,6 +16,16 @@
             "description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
             "required": false
         },
+        "RULES": {
+            "description": "You can set rules display to your groups.",
+            "required": true,
+            "value": "default"
+        },
+        "RULES LOGO": {
+            "description": "You can set rules logo display to your groups.",
+            "required": true,
+            "value": "https://i.ibb.co/268z6QF/R.jpg"
+        },
         "CUS_PANEL": {
             "description": "Enter 2nd Panel CMD",
             "required": true,
