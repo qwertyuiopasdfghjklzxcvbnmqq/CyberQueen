@@ -39,6 +39,8 @@ module.exports = {
     CUS_PANEL: process.env.CUS_PANEL === undefined ? 'cyber' : process.env.CUS_PANEL,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     ANTIGRP_LINK: process.env.ANTIGRP_LINK === undefined ? 'false' : process.env.ANTIGRP_LINK,
+    RULES: process.env.RULES === undefined ? 'default' : process.env.RULES,
+    RULES_LOGO: process.env.RULES_LOGO === undefined ? 'https://telegra.ph/file/24cacd9938446a38180fd.png' : process.env.RULES_LOGO,
     BRANCH: 'main',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
