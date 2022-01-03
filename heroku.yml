@@ -1,5 +1,5 @@
 build: 
   docker: 
-      worker: Dockerfile
+      worker: /CyberQueen/Dockerfile
 run:
    worker: npm start
