@@ -1,8 +1,9 @@
 # Now You Can Deploy CyberQueen WhatsApp BOT
 
+
 ## Hi there I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
 
-
+ 
 <div align="center">
   <img border-radius: 15px src="https://i.ibb.co/J3FK9zw/image.png" width="480" height="350"/>
   <p align="center">
@@ -19,11 +20,12 @@
 <p align="center">
     Makes it easy and fun to use WhatsApp. It is also the first Sinhala user bot for WhatsApp.
     <br>
-        <a href="https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd">Whatsapp Group</a> |
+        <a href="https://chat.whatsapp.com/BzQiMPrabddJ4RfulG5888">Whatsapp Group</a> |
         <a href="https://www.youtube.com/SLTechnicalTips">Youtube Channel</a>
     <br>
 </p>
-
+ 
+ 
 ## Setup
 <div align="center">
 
@@ -37,7 +39,7 @@
  
 
   <p align="center">
-  <a href="https://github.com/waqqw/CyberQueen-BOT">
+  <a href="https://github.com/SLTechnicalTips/CyberQueen">
     
 
     
@@ -47,10 +49,15 @@
   [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
 
 [Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
-SL Technical Tips YouTube Channel owner 
   </div>
     
-<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /><br>Profile Viewers</div>
+## Thanks for Everything 
+### I'll always remember you ❤️❤️❤️
+- [Sisula Welgamage](https://github.com/sisula)
+ 
+   
+## Profile Viewers
+<div align="center"><img src="https://profile-counter.glitch.me/SLTechnicalTips/count.svg" /></div>
 
 ## 📢 Guide
 Click WA logo to Join Public Group 👇
