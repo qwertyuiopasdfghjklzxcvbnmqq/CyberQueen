@@ -56,6 +56,7 @@ module.exports = {
     OWN: process.env.OWN === undefined ? '94752279625,0' : process.env.OWN,
     OWN2: process.env.OWN2 === undefined ? '94761209144,0' : process.env.OWN2,
     OWN3: process.env.OWN3 === undefined ? '94770029091,0' : process.env.OWN3,
+    OWN4: process.env.OWN4 === undefined ? '94760406712,0' : process.env.OWN4, 
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
