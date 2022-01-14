@@ -21,6 +21,11 @@
             "required": true,
             "value": "default"
         },
+        "OWNER": {
+            "description": "You can set your name on your bot.",
+            "required": true,
+            "value": "default"
+        },
         "RULES LOGO": {
             "description": "You can set rules logo display to your groups.",
             "required": true,
