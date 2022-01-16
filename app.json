@@ -1,13 +1,13 @@
 {
-    "name": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ Bot",
-    "description": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ is a chat bot for WhatsApp.",
-    "logo": "https://i.ibb.co/6tyMhVf/IMG-20211213-WA0007.jpg",
-    "keywords": ["whatsapp", "userbot", "Asena", "queen", "bot", "api", "ai", "cyber"],
-    "repository": "https://github.com/waqqw/CyberQueen",
-    "website":   "https://chat.whatsapp.com/E76o3j6g2NpFZ",
-    "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
-    "stack": "container",
-    "env": {
+	"name": "Cyber Queen",
+	"description": "Cyber Queen- Makes it easy and fun to use Whatsapp. An userbot made for WhatsApp.",
+	"logo": "https://i.ibb.co/J3FK9zw/image.png",
+	"keywords": ["whatsapp", "userbot", "Cyber", "Queen", "bot", "api", "ai"],
+	"repository": "https://github.com/SLTechnicalTips/CyberQueen",
+	"website": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUME",
+	"success_url": "https://chat.whatsapp.com/HbURDOKU6Up29kmFZUMEo",         
+	"stack": "container",
+	"env": {
         "_CYBER_SESSION": {
             "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන් https://replit.com/@NICONico6/CyberQueen-QR",
             "required": true
@@ -139,11 +139,11 @@
             "required": false,
             "value": "true"
         }
-    },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      }]
-  }
+   	 },
+   	 "addons": [{
+   	   "plan": "heroku-postgresql"
+   	 }],
+    	"buildpacks": [{
+    	  "url": "heroku-community/apt"
+     	 }]
+ 	}
