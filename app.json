@@ -3,9 +3,9 @@
 	"description": "Cyber Queen - Makes it easy and fun to use Whatsapp. An userbot made for WhatsApp.",
 	"logo": "https://i.ibb.co/J3FK9zw/image.png",
 	"keywords": ["whatsapp", "userbot", "cyber", "queen", "bot", "api", "ai"],
-	"repository": "https://github.com/MrJoka-Thejaka/Mizuki",
-	"website": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUME",
-	"success_url": "https://chat.whatsapp.com/HbURDOKU6Up29kmFXZUME",         
+	"repository": "https://github.com/SLTechnicalTips/CyberQueen",
+	"website": "https://youtube.com/SLTechnicalTips",
+	"success_url": "https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd",         
 	"stack": "container",
 	"env": {
 		"_CYBER_SESSION": {
@@ -57,7 +57,7 @@
 			"required": true
 		},
 		"MUTE_MESSAGE": {
-			"description": "ගෲපක් මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
+			"description": "කණ්ඩායම mute කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
 			"required": false,
 			"value": "default"
 		},
@@ -67,7 +67,7 @@
 			"value": "false"
 		},
 		"UNMUTE_MESSAGE": {
-			"description": "ගෲපක් අන්මියුට් කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
+			"description": "කණ්ඩායම unmute කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
 			"required": false,
 			"value": "default"
 		},
@@ -82,18 +82,13 @@
 			"value": "default"
 		},
 		"WORK_TYPE": {
-			"description": "බොටා වැඩ කරන්න ඕනෙ හැමෝටමනම් public කියලම තියපන්.. උබට විතරක් වැඩ කරන්න ඕන්නම් private කියල දියන්.",
+			"description": "බොටා වැඩ කරන්න ඕනෙ හැමෝටමනම් public කියල තියපන්.. උබට විතරක් වැඩ කරන්න ඕන්නම් private කියල දියන්.",
 			"required": true,
 			"value": "private"
 		},
 		"HEROKU_APP_NAME": {
 			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
 			"required": true
-		},
-		"DEBUG": {
-			"description": "උබ මේක දන්නැත්තන් මේකෙ මොකුත් ටයිප් කරන්න එපා.",
-			"required": true,
-			"value": "false"
 		},
 		"REMOVE_BG_API_KEY": {
 			"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
