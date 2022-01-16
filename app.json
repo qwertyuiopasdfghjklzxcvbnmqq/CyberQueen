@@ -42,16 +42,16 @@
 			"value": "cyber"	
 			
 		},
-        "ANTIGRP_LINK": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": true,
-            "value": "false"
-        },
-        "HEROKU": {
-            "description": "Heroku",
-            "required": true,
-            "value": "true"
-        },
+               "ANTIGRP_LINK": {
+                        "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+                        "required": true,
+                        "value": "false"
+                },
+                "HEROKU": {
+                        "description": "Heroku",
+                        "required": true,
+                        "value": "true"
+                },
 		"HEROKU_API_KEY": {
 			"description": "https://dashboard.heroku.com/account එකට ගිහින් යටටම scroll කරන්න. API Key කියල ඇති, reveal කියන button එක ඔබල එන එක කොපි කරල මෙතෙන්ට දාපන්",
 			"required": true
@@ -98,7 +98,7 @@
 		"REMOVE_BG_API_KEY": {
 			"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
 			"required": false,
-            "value" : "Gur956XcUMz3td21N5nZJbKc"
+                        "value" : "Gur956XcUMz3td21N5nZJbKc"
 		},
 		"ALIVE_MESSAGE": {
 			"description": "බොටා ඉන්නවද කියල බලන්න කමාන්ඩ් කලාම එන්න ඕනෙ මැසේජ් එක",
