@@ -13,16 +13,16 @@
 			"required": true
 		},
 		"SUDO": {
-			"description": "උබට බොටාව වෙන නම්බරේකින් කන්ට්‍රෝල් කරන්න ඕන්නම් දාපන්(ඇඩ්මින් කමාන්ඩ්ස්) Ex :- 947xxxxxxxx (Sri lanka අංකය 94",
+			"description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
 			"required": false
 		},
-		"ANTI_LINK": {
-			"description": "Link Blocking System.මොකෙක් හරි ලින්ක් දැම්මොත් ඌව ban වෙනව..",
+		"ANTIGRP_LINK": {
+			"description": "Link Blocking System.මොකෙක් හරි ගෲප් ලින්ක් දැම්මොත් ඌව kick වෙනව..",
 			"required": true,
 			"value": "false"
 		},
 		"HANDLERS": {
-			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ",
+			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ. මේකට තොගයක් දාන්න එපා...",
 			"required": true,
 			"value": "^[.!;]"
 		},
@@ -41,19 +41,6 @@
 			"required": false,
 			"value": "cyber"	
 			
-		},
-		"LOGO_BYE": {
-			"description": "එය ඔබගේ Goodbye පණිවුඩය වෙනස් කරයි | ඔබට එයට Image එකක් අවශ්‍යනම්,  IMG&ලින්ක් එක | ඔබට එයට GIF එකක් අවශ්‍යනම්, GIF&ලින්ක් එක",
-			"required": false,
-			"value": "GIF&https://thumbsnap.com/i/PQ7iHqwx.mp4"
-		
-		},
-		"LOGO_WELCOME": {
-			"description": "එය ඔබගේ Welcome පණිවුඩය වෙනස් කරයි | ඔබට එයට Image එකක් අවශ්‍යනම්,  IMG&ලින්ක් එක | ඔබට එයට GIF එකක් අවශ්‍යනම්, GIF&ලින්ක් එක",
-			"required": false,
-			"value": "GIF&https://thumbsnap.com/i/nfQGh4Pf.mp4"
-			
-				
 		},
         "ANTIGRP_LINK": {
             "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
