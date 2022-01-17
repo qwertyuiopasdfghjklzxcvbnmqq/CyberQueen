@@ -1,7 +1,7 @@
 # Now You Can Deploy CyberQueen WhatsApp BOT
 
 
-## Hi there I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ
+## Hi there I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ v3.8.4
 
  
 <div align="center">
