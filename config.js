@@ -42,7 +42,7 @@ module.exports = {
     ANTIGRP_LINK: process.env.ANTIGRP_LINK === undefined ? 'false' : process.env.ANTIGRP_LINK,
     RULES: process.env.RULES === undefined ? 'default' : process.env.RULES,
     OWNER: process.env.OWNER === undefined ? 'default' : process.env.OWNER,
-    ADDMSG: process.env.ADD_MSG === undefined ? 'default' : process.env.ADD_MSG,
+    ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     RULES_LOGO: process.env.RULES_LOGO === undefined ? 'https://i.ibb.co/J3FK9zw/image.png' : process.env.RULES_LOGO,
     BRANCH: 'main',
     HEROKU: {
