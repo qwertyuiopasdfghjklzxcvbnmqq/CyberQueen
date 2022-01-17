@@ -21,6 +21,16 @@
 			"required": true,
 			"value": "false"
 		},
+                "RULES": {
+			"description": "Rules",
+			"required": true,
+			"value": "default"
+		},
+                "RULES_LOGO": {
+			"description": "Rules වල ලොගො එක",
+			"required": true,
+			"value": "https://i.ibb.co/268z6QF/R.jpg"
+		},
 		"HANDLERS": {
 			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ. මේකට තොගයක් දාන්න එපා...",
 			"required": true,
@@ -42,7 +52,7 @@
 			"value": "cyber"	
 			
 		},
-               "ANTIGRP_LINK": {
+                "ANTIGRP_LINK": {
                         "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
                         "required": true,
                         "value": "false"
