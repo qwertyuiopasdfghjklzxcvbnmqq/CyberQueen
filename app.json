@@ -1,154 +1,170 @@
 {
-    "name": "CyberQueen Bot",
-    "description": "᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ǫᴇᴇɴᬐ is a chat bot for WhatsApp.",
-    "logo": "https://i.ibb.co/6tyMhVf/IMG-20211213-WA0007.jpg",
-    "keywords": ["whatsapp", "userbot", "Asena", "queen", "bot", "api", "ai", "cyber"],
-    "repository": "https://github.com/waqqw/CyberQueen",
-    "website":   "https://chat.whatsapp.com/E76o3j6g2NpFZ",
-    "success_url": "https://chat.whatsapp.com/Hm79J2saLrvRTkq",
-    "stack": "container",
-    "env": {
-        "_CYBER_SESSION": {
-            "description": "Qr කේතය scan කළ පසුව ලැබෙන කේතයන් https://replit.com/@NICONico6/CyberQueen-QR",
-            "required": true
-        },
-        "SUDO": {
-            "description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
-            "required": false
-        },
-        "RULES": {
-            "description": "You can set rules display to your groups.",
-            "required": true,
-            "value": "default"
-        },
-        "OWNER": {
-            "description": "You can set your name on your bot.",
-            "required": true,
-            "value": "default"
-        },
-        "RULES LOGO": {
-            "description": "You can set rules logo display to your groups.",
-            "required": true,
-            "value": "https://i.ibb.co/268z6QF/R.jpg"
-        },
-        "CUS_PANEL": {
-            "description": "Enter 2nd Panel CMD",
-            "required": true,
-            "value": "cyber"
-        },
-        "ANTIGRP_LINK": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": true,
-            "value": "false"
-        },
-        "HANDLERS": {
-            "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
-            "required": true,
-            "value": "^[.!#]"
-        },
-        "SEND_READ": {
-            "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU": {
-            "description": "Heroku",
-            "required": true,
-            "value": "true"
-        },
-        "HEROKU_API_KEY": {
-            "description": "Heroku Api Key.",
-            "required": true
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Heroku App name.",
-            "required": true
-        },
-        "MUTE_MESSAGE": {
-            "description": "mute msg",
-            "required": false,
-            "value": "default"
-        },
-        "BLOCK_CHAT": {
-            "description": "බොට් වැඩ නොකරන චැට් එක තෝරන්න. Ex: 947xxxxxxxx && 947xxxxxxxx හෝ 947xxxxxxxx,947xxxxxxxx",
-            "required": false,
-            "value": "default"
-        },
-        "UNMUTE_MESSAGE": {
-            "description": "Group එකක් unmute කිරිමෙදි ලැබෙන පනිවිඩය.",
-            "required": false,
-            "value": "default"
-        },
-        "BLOCK_MESSAGE": {
-            "description": "වෙනස් කළ හැකි චැට් block දැනුම්දීම. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "UNBLOCK_MESSAGE": {
-            "description": "වෙනස් කළ හැකි චැට් unblock දැනුම්දීම. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "WORK_TYPE": {
-            "description": "Bot වැඩ කරන ක්රමය. ඔබ “public” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම bot භාවිතා කළ හැකිය. ඔබ “private” භාවිතා කරන්නේ නම්, ඔබේ bot භාවිතා කළ හැක්කේ ඔබට පමණි.",
-            "required": true,
-            "value": "private"
-        },
-        "REMOVE_BG_API_KEY": {
-            "description": "මෙහිදි ඔබ remove.bg යන website එකට පිවිස signup වී, API key එකක් ලබාගන්න. එම API key එක මම මේ හිස්තැනේ දමා ඇත.",
-            "required": false,
-            "value": "Gur956XcUMz3td21N5nZJbKc"
-        },
-        "ALIVE_MESSAGE": {
-            "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන මැසේජ් එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
-            "required": false,
-            "value": "default"
-        },
-        "ALIVE_LOGO": {
-            "description": "Bot online ද නැද්ද යන්න පරීක්ෂා කරන විට ලැබෙන photo එක. මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
-            "required": false,
-            "value": "https://i.ibb.co/J3FK9zw/image.png"            
-        },
-        "BAN_MESSAGE": {
-            "description": "යම් කෙනෙකු ඔබ .kick ලෙස කොමාන්ඩ් කර remove කලවිට ලැබෙන message එක. ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "ADD_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "KICKME_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "PROMOTE_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "DEMOTE_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "AFK_MESSAGE": {
-            "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
-            "required": false,
-            "value": "default"
-        },
-        "NO_ONLINE": {
-            "description": "මෙය වෙනස් කිරිමට අත්‍යාවශ්‍යම නොවේ.",
-            "required": false,
-            "value": "true"
-        }
-    },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      }]
-  }
+	"name": "CyberQueen v3.8.4",
+	"description": "Cyber Queen - Makes it easy and fun to use Whatsapp. An userbot made for WhatsApp.",
+	"logo": "https://i.ibb.co/J3FK9zw/image.png",
+	"keywords": ["whatsapp", "userbot", "cyber", "queen", "bot", "api", "ai"],
+	"repository": "https://github.com/SLTechnicalTips/CyberQueen",
+	"website": "https://youtube.com/SLTechnicalTips",
+	"success_url": "https://chat.whatsapp.com/HB1qciGHnMtEIpicPkzwpd",         
+	"stack": "container",
+	"env": {
+		"_CYBER_SESSION": {
+			"description": "Qr කේතය scan කළ පසුව ලැබෙන කේතය.",
+			"required": true
+		},
+		"SUDO": {
+			"description": "ඔබ එය භාවිතා කරන්නේ කෙසේදැයි නොදන්නේ නම් හිස්ව තබන්න! සුඩෝ මාදිලිය; ඔබගේ අංකය ජාත්‍යන්තර අංකයක් විය යුතුය. එබැවින් රටේ කේතයෙන් පසුව ඔබේ අංකය තිබිය යුතුය. උදාහරණය: 947xxxxxxxx (Sri lanka අංකය 94)",
+			"required": false
+		},
+		"ANTIGRP_LINK": {
+			"description": "Link Blocking System.මොකෙක් හරි ගෲප් ලින්ක් දැම්මොත් ඌව kick වෙනව..",
+			"required": true,
+			"value": "false"
+		},
+                "RULES": {
+			"description": "Rules",
+			"required": true,
+			"value": "default"
+		},
+                "ALIVE_STIC": {
+			"description": "alive sticker",
+			"required": true,
+			"value": "true"
+		},
+                "RULES_LOGO": {
+			"description": "Rules වල ලොගො එක",
+			"required": true,
+			"value": "https://i.ibb.co/268z6QF/R.jpg"
+		},
+		"HANDLERS": {
+			"description": "බොට්ට කමාන්ඩ් එකක් දෙද්දි මුලට දාන්න ඕනෙ සලකුණ. මේකට තොගයක් දාන්න එපා...",
+			"required": true,
+			"value": "^[.!;]"
+		},
+		"SEND_READ": {
+			"description": "බොටා මැසේජ් සීන් කරන්න ඕන්නම් true දියන් ඕන්නැත්තන් false දියන්.",
+			"required": true,
+			"value": "true"
+		}, 
+		"ALIVE_LOGO": {
+			"description": "එය ඔබගේ ALIVE LOGO වෙනස් කරයි...ඔබ කැමති image https://telegra.ph upload කර ලින්ක් දෙන්න.",
+			"required": true,
+			"value": "https://i.ibb.co/J3FK9zw/image.png"
+		},
+		"CUS_PANEL": {
+			"description": "එය ඔබගේ menu එක ලබා ගැනීමට ඔබට අවශ්‍ය කමාන්ඩ් එකක් ඇඩ් කරයි.ඔබ කැමති command එකක් යොදන්න. Ex:- mizuki",
+			"required": false,
+			"value": "cyber"	
+			
+		},
+                "ANTIGRP_LINK": {
+                        "description": "ඔබට මෙම පණිවිඩය වෙනස් කිරීමට අවශ්‍ය නැතිනම් default ටයිප් කරන්න.",
+                        "required": true,
+                        "value": "false"
+                },
+                "HEROKU": {
+                        "description": "Heroku",
+                        "required": true,
+                        "value": "true"
+                },
+		"HEROKU_API_KEY": {
+			"description": "https://dashboard.heroku.com/account එකට ගිහින් යටටම scroll කරන්න. API Key කියල ඇති, reveal කියන button එක ඔබල එන එක කොපි කරල මෙතෙන්ට දාපන්",
+			"required": true
+		},
+		"MUTE_MESSAGE": {
+			"description": "කණ්ඩායම mute කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම් ",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_CHAT": {
+			"description": "බොටා වැඩ කරන්නැති චැට් එක දෙන්න ඕනෙ. Ex: 94######### හෝ 94#########,94#########",
+			"required": false,
+			"value": "false"
+		},
+		"UNMUTE_MESSAGE": {
+			"description": "කණ්ඩායම unmute කරද්දි එන්න ඕනෙ මැසේජ් එක.ඒක වෙනස් කරන්න ඕන්නැත්තන් default කියල දාහම්",
+			"required": false,
+			"value": "default"
+		},
+		"BLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි බ්ලොක් කරද්දි එන මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"UNBLOCK_MESSAGE": {
+			"description": "මොකෙක් හරි අන්බ්ලොක් කරද්දි එන මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"WORK_TYPE": {
+			"description": "බොටා වැඩ කරන්න ඕනෙ හැමෝටමනම් public කියල තියපන්.. උබට විතරක් වැඩ කරන්න ඕන්නම් private කියල දියන්.",
+			"required": true,
+			"value": "private"
+		},
+		"HEROKU_APP_NAME": {
+			"description": "අර උබ උඩ දුන්නු Heroku app name එක දාපන්",
+			"required": true
+		},
+		"REMOVE_BG_API_KEY": {
+			"description": "Images වල background එක අයින් කරන්න ඕන්නම් https://remove.bg එකට ගිහින් දෙන API එක මෙතෙන්ට දාපන්",
+			"required": false,
+                        "value" : "Gur956XcUMz3td21N5nZJbKc"
+		},
+		"ALIVE_MESSAGE": {
+			"description": "බොටා ඉන්නවද කියල බලන්න කමාන්ඩ් කලාම එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"BAN_MESSAGE": {
+			"description": "මොකෙක්ව හරි ban කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"ADD_MESSAGE": {
+			"description": "මොකෙක්ව හරි Add කරද්දි එන්න ඕනෙ මැසේජ් එක.",
+			"required": false,
+			"value": "default"
+		},
+		"KICKME_MESSAGE": {
+			"description": ".kickme ගහල ලෙප්ට් වෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"PROMOTE_MESSAGE": {
+			"description": "මොකෙක්ට හරි ඇඩ්මින් දෙද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"DEMOTE_MESSAGE": {
+			"description": "මොකෙක්ගෙන් හරි ඇඩ්මින් අයින් කරද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"AFK_MESSAGE": {
+			"description": "AFK mode එකේ ඉද්දි එන්න ඕනෙ මැසේජ් එක",
+			"required": false,
+			"value": "default"
+		},
+		"GAN_IMAGE": {
+			"description": "Type image link for Gan Style plugin.",
+			"required": true,
+			"value": "https://telegra.ph/file/e9aca7ad440abd1cad7a1.jpg"
+		},
+		"NO_ONLINE": {
+			"description": "බොටා වට්ස් ඇප් එකට එද්දි online කියල එන්න ඕනෙනම් true තියන්න ඕන්නැත්තන් false දෙන්න",
+			"required": false,
+			"value": "true"
+		},
+		"COFFEEHOUSE_API_KEY": {
+			"description": "ඒක අතෑරපන් මේක අපි දෙනව",
+			"required": false,
+			"value": "true"
+		 }
+   	 },
+   	 "addons": [{
+   	   "plan": "heroku-postgresql"
+   	 }],
+    	"buildpacks": [{
+    	  "url": "heroku-community/apt"
+     	 }]
+ 	}
