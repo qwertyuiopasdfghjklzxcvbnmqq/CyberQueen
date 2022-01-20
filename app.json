@@ -26,6 +26,11 @@
 			"required": true,
 			"value": "default"
 		},
+                "ALIVE_STIC": {
+			"description": "alive sticker",
+			"required": true,
+			"value": "true"
+		},
                 "RULES_LOGO": {
 			"description": "Rules වල ලොගො එක",
 			"required": true,
